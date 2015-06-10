@@ -80,7 +80,7 @@ sections = new Layer
 
 sections.html = "<span style='margin: 0 48px'>BUY</span><span style='margin: 0 48px; opacity: 0.6'>RENT</span><span style='margin: 0 48px; opacity: 0.6'>PG/HOSTELS</span><span style='margin: 0 48px; opacity: 0.6'>AGENTS</span>"
 sections.style.color = "white"
-sections.style.fontFamily = "Helvetica"
+sections.style.fontFamily = "Arial"
 sections.style.fontSize = "48px"
 sections.style.fontWeight = "500"
 sections.style.paddingTop = "6px"
