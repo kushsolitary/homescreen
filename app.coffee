@@ -80,11 +80,11 @@ sections = new Layer
 
 sections.html = "<span style='margin: 0 48px'>BUY</span><span style='margin: 0 48px; opacity: 0.6'>RENT</span><span style='margin: 0 48px; opacity: 0.6'>PG/HOSTELS</span><span style='margin: 0 48px; opacity: 0.6'>AGENTS</span>"
 sections.style = 
-	color = "white"
-	fontFamily = "HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif"
-	fontSize = "48px"
-	fontWeight = "500"
-	paddingTop = "6px"
+	color: "white"
+	fontFamily: "HelveticaNeue"
+	fontSize: "48px"
+	fontWeight: "500"
+	paddingTop: "6px"
 
 # Settings
 areCardsOpen = false
