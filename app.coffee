@@ -1,7 +1,7 @@
 # For iPhone 5/5s
-Framer.Device.contentScale = 0.592
+Framer.Device.contentScale = 0.692
 
-Framer.Device.deviceType = "iphone-5s-silver"
+Framer.Device.deviceType = "iphone-6-silver"
 
 # Variables
 background1 = new Layer
@@ -73,7 +73,7 @@ card4 = new Layer
 
 # /
 navBar = new Layer
-	x:0, y:1706, width:1080, height:220, image:"images/tabbar.png"
+	x:0, y:1710, width:1080, height:220, image:"images/tabbar.png"
 
 sections = new Layer
 	x: 0, y: 510, width: 1300, height: 54, backgroundColor: "transparent"
