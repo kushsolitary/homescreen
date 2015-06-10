@@ -47,28 +47,28 @@ btnAlerts2 = new Layer
 	x:1643, y:1345, width:468, height:144, image:"images/btnAlerts.png"
 
 card3 = new Layer
-	x:48, y:1540, width:985, height:575, image:"images/card_3.png"
+	x:48, y:1540, width:985, height:504, image:"images/card_3.png"
 	scale: 0.90, shadowY: 0, shadowBlur: 10, shadowColor: "rgba(0, 0, 0, 0.2)"
 
 card2 = new Layer
-	x:48, y:1579, width:985, height:360, image:"images/card_2.png"
+	x:48, y:1570, width:985, height:526, image:"images/card_2.png"
 	scale: 0.95, shadowY: 0, shadowBlur: 20, shadowColor: "rgba(0, 0, 0, 0.2)"
 
 card1 = new Layer
-	x:48, y:1604, width:985, height:333, image:"images/card_1.png"
+	x:48, y:1604, width:986, height:526, image:"images/card_1.png"
 	shadowY: 0, shadowBlur: 15, shadowColor: "rgba(0, 0, 0, 0.2)"
 
 # Objects on the second screen
 card6 = new Layer
-	x:1128, y:1540, width:985, height:575, image:"images/card_3.png"
+	x:1128, y:1540, width:985, height:504, image:"images/card_3.png"
 	scale: 0.90, shadowY: 0, shadowBlur: 10, shadowColor: "rgba(0, 0, 0, 0.2)"
 
 card5 = new Layer
-	x:1128, y:1579, width:985, height:360, image:"images/card_2.png"
+	x:1128, y:1570, width:985, height:526, image:"images/card_2.png"
 	scale: 0.95, shadowY: 0, shadowBlur: 20, shadowColor: "rgba(0, 0, 0, 0.2)"
 
 card4 = new Layer
-	x:1128, y:1604, width:985, height:333, image:"images/card_1.png"
+	x:1128, y:1604, width:986, height:526, image:"images/card_1.png"
 	shadowY: 0, shadowBlur: 15, shadowColor: "rgba(0, 0, 0, 0.2)"
 
 # /
@@ -139,7 +139,7 @@ card2.states.add
 	slide: {x: -1128}
 
 card3.states.add
-	open: {y: (790 + card1.height + 48), scale: 1}
+	open: {y: (382 + card2.height + card1.height + (48 * 2)), scale: 1}
 	slide: {x: -1128}
 
 card4.states.add
