@@ -79,11 +79,12 @@ sections = new Layer
 	x: 0, y: 510, width: 1300, height: 54, backgroundColor: "transparent"
 
 sections.html = "<span style='margin: 0 48px'>BUY</span><span style='margin: 0 48px; opacity: 0.6'>RENT</span><span style='margin: 0 48px; opacity: 0.6'>PG/HOSTELS</span><span style='margin: 0 48px; opacity: 0.6'>AGENTS</span>"
-sections.style.color = "white"
-sections.style.fontFamily = "Arial"
-sections.style.fontSize = "48px"
-sections.style.fontWeight = "500"
-sections.style.paddingTop = "6px"
+sections.style = 
+	color = "white"
+	fontFamily = "HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, sans-serif"
+	fontSize = "48px"
+	fontWeight = "500"
+	paddingTop = "6px"
 
 # Settings
 areCardsOpen = false
