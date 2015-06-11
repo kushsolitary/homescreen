@@ -1,5 +1,5 @@
 # For iPhone 5/5s
-Framer.Device.contentScale = 0.692
+Framer.Device.contentScale = 0.695
 
 Framer.Device.deviceType = "iphone-6-silver"
 
