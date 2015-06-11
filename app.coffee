@@ -1,14 +1,14 @@
 # For iPhone 5/5s
-Framer.Device.contentScale = 0.695
+Framer.Device.contentScale = 0.693
 
 Framer.Device.deviceType = "iphone-6-silver"
 
 # Variables
 background1 = new Layer
-	x:0, y:0, width:1080, height:1775, image:"images/background1.png"
+	x:0, y:0, width:1085, height:1780, image:"images/background1.png"
 
 background2 = new Layer
-	x:100, y:0, width:1080, height:1775, image:"images/background2.png"
+	x:100, y:0, width:1085, height:1780, image:"images/background2.png"
 	opacity: 0
 
 gradBg = new Layer
