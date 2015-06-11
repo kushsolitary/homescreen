@@ -15,7 +15,7 @@ gradBg = new Layer
 	x:0, y:0, width:1100, height:2509, image:"images/gradBg.png"
 
 statusBar = new Layer
-	x:0, y:0, width:1080, height:72, image:"images/statusbar.png"
+	x:20, y:0, width:1040, height:52, image:"images/statusbar.png"
 
 logoTop = new Layer
 	x:1080/2 - 420/2, y:228, width: 420, height: 73.5, image:"images/logoTop.png"
