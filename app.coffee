@@ -82,7 +82,7 @@ sections.html = "<span style='margin: 0 48px'>BUY</span><span style='margin: 0 4
 sections.style.color = "white"
 sections.style.fontFamily = "HelveticaNeue"
 sections.style.fontSize = "48px"
-sections.style.fontWeight = "600"
+sections.style.fontWeight = "500"
 sections.style.paddingTop = "6px"
 
 # Settings
